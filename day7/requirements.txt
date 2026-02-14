@@ -1,0 +1,27 @@
+# Day 7: SQLAlchemy ORM Dependencies
+# ================================
+
+# FastAPI - Web framework
+fastapi>=0.104.0
+
+# Uvicorn - ASGI server
+uvicorn>=0.24.0
+
+# SQLAlchemy - ORM library
+sqlalchemy>=2.0.0
+
+# Pydantic - Data validation
+pydantic>=2.5.0
+pydantic[email]>=2.5.0
+
+# For SQLite (no extra installation needed)
+# SQLite is included in Python
+
+# For PostgreSQL (optional - uncomment if using PostgreSQL):
+# psycopg2-binary>=2.9.0
+
+# Python-multipart - For form data (required for some Pydantic features)
+python-multipart>=0.0.6
+
+# Email validation for Pydantic
+email-validator>=2.1.0
