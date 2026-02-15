@@ -1,0 +1,27 @@
+# Day 10: FastAPI with SQLAlchemy
+# Additional dependencies for database integration
+
+# Core FastAPI dependencies
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Data validation and serialization
+pydantic>=2.0.0
+pydantic[email]>=2.0.0
+
+# For SQLite (included in Python, but good to have)
+# For PostgreSQL: psycopg2-binary>=2.9.0
+# For MySQL: pymysql>=1.1.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+httpx>=0.24.0  # For testing FastAPI apps
+
+# Development
+black>=23.0.0  # Code formatting
+flake8>=6.0.0  # Linting
+mypy>=1.0.0    # Type checking
